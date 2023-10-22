@@ -4,4 +4,4 @@ There are various Design Patterns which needs to be taken care while designing a
 
 ## 3. Factory Pattern
 
-![Alt Text]('./assests/Factory.png')
+![Alt Text](assests/Factory.png)

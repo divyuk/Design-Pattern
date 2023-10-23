@@ -67,8 +67,7 @@ private:
     vector<string> articles;
 
 public:
-    void
-    attach(Observer *observer)
+    void attach(Observer *observer)
     {
         observers.push_back(observer);
     }
@@ -94,10 +93,11 @@ private:
 
 int main()
 {
-    NewsAgency newsAgency;
+    NewsAgency newsAgency; // Subject
+    // Subscriber
     Subscriber subscribe1("Alice");
     Subscriber subscribe2("Bob");
-
+    // Subscribe
     newsAgency.attach(&subscribe1);
     newsAgency.attach(&subscribe2);
 

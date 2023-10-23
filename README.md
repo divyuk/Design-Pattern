@@ -8,4 +8,4 @@ There are various Design Patterns which needs to be taken care while designing a
 
 ## 4. Abstract Factory Pattern
 
-![Abstract Factory Pattern](assests/Abstract Factory Pattern.png)
+![Abstract Factory Pattern](assests/Abstract_Factory_Pattern.png)

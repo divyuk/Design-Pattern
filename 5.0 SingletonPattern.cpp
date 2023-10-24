@@ -46,6 +46,6 @@ int main()
 
     //! In this case, you would indeed create two separate instances, which would be a violation of the Singleton pattern. To enforce the Singleton pattern, always use references when obtaining the instance
 
-    //! Singleton instance3 = Singleton::getInstance();
-    //! instance3.someOperation();
+    // Singleton instance3 = Singleton::getInstance();
+    // instance3.someOperation();
 }

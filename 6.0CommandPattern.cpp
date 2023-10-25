@@ -87,6 +87,6 @@ int main()
 {
     AC ac;                       // Object ac is created on stack
     ACTurnOn cmdOn(ac);          // Instance of Turn on class and setting it with reciever
-    RemoteControl remote(cmdOn); // Setting teh Remote with the command required to run the reciever
+    RemoteControl remote(cmdOn); // Setting the Remote with the command required to run the reciever.//! Because of Polymorphism the derived class can set the base class
     remote.pressButton();        // User presses the button
 }
